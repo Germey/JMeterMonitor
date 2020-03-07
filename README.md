@@ -26,7 +26,7 @@ docker-compose up
 
 ## Kubernetes 部署
 
-见 [./deployment.yml]。
+见 [kubernetes/deployment.yml](kubernetes/deployment.yml)。
 
 ## 参考来源
 
