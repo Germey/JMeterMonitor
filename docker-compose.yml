@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jmeter:
+    restart: always
+    image: 'germey/jmeter'
+    volumes:
+      - ./jmx:/app
+    command:
+      - cuiqingcai.com.jmx

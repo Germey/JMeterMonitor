@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    io.kompose.service: pvc-jmeter
+  name: pvc-jmeter
+  namespace: jmeter
+spec:
+  storageClassName: azure-file
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
