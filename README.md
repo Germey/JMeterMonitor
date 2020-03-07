@@ -27,3 +27,7 @@ docker-compose up
 ## Kubernetes 部署
 
 见 [./deployment.yml]。
+
+## 参考来源
+
+[https://github.com/justb4/docker-jmeter](https://github.com/justb4/docker-jmeter)。
