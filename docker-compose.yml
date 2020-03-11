@@ -6,6 +6,6 @@ services:
     volumes:
       - ./jmx:/app
     command:
-      - int-visual-service.msxiaobing.com.jmx
+      - sample.jmx
     ports:
       - "80:80"
