@@ -6,4 +6,6 @@ services:
     volumes:
       - ./jmx:/app
     command:
-      - cuiqingcai.com.jmx
+      - int-visual-service.msxiaobing.com.jmx
+    ports:
+      - "80:80"
