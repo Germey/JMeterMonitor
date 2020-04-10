@@ -1,10 +1,12 @@
 # JMeterMonitor
 
-JMeter 测试、发送到 Influxdb、Grafana 可视化展示。
+JMeter 测试、发送到 Influxdb 或 Prometheus、Grafana 可视化展示。
 
 ![](https://qiniu.cuiqingcai.com/2020-03-07-200213.png)
 
 本项目为 JMeter Docker 镜像。
+
+注：Prometheus 需要依赖 [https://github.com/johrstrom/jmeter-prometheus-plugin](https://github.com/johrstrom/jmeter-prometheus-plugin)，镜像已经内置。
 
 ## 使用
 
