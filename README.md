@@ -16,7 +16,7 @@ JMeter 测试、发送到 Influxdb 或 Prometheus、Grafana 可视化展示。
 docker pull germey/jmeter
 ```
 
-当前项目文件夹下新建 jmx 文件夹，用于存放 jmx 文件。JMeter 中配置好 BackendListener，并设置好 Influxdb，测试成功后，将配置保存到 jmx 文件夹。
+当前项目文件夹下新建 jmx 文件夹，用于存放 jmx 文件。JMeter 中配置好 BackendListener，并设置好 Influxdb，测试成功后，将配置保存到 jmx 文件夹。如需导出到 Prometheus，需要增加 Prometheus Listener。
 
 启动：
 
@@ -24,7 +24,7 @@ docker pull germey/jmeter
 docker-compose up
 ```
 
-会永久运行测试并发送测试数据到 Influxdb，Grafana 可视化展示即可。
+会永久运行测试并发送测试数据到 Influxdb 或在 80 端口生成 Prometheus 数据，Grafana 可视化展示即可。
 
 ## Kubernetes 部署
 
